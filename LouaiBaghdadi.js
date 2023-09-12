@@ -65,11 +65,45 @@
 
 /*        ex5 */
 
-function square(number){
-    return number * number
-}
+// function square(number){
+//     return number * number
+// }
 
-console.log(square(3));
+// console.log(square(3));
+
+
+// const numberKey=prompt("enter the number key");
+
+// switch(numberKey) {
+//     case "0":
+//       console.log("we sank together");
+//       break;
+//     case "30000":
+//       console.log("we made it");
+//       break;
+//       default:
+//         console.log("we need to swim a little bit more!")
+//   }
+
+
+
+
+function key(number){
+    switch(number){
+        case 0:
+            console.log("we sank together");
+            break;
+        
+        case 30000:
+            console.log("we made it");
+            break;
+
+            default:
+                console.log("we need to swim a little bit more");
+    }
+    return number;
+}
+console.log(key(3000));
 
 
 
