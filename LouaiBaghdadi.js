@@ -37,12 +37,36 @@
 
 /*          exercie 3      */ 
 
-for (let i = 0; i < 6; i++) {
-    var star=" "
-    for (let j = 0; j <= i; j++) {
-        star+="*";
+// for (let i = 0; i < 6; i++) {
+//     var star=" "
+//     for (let j = 0; j <= i; j++) {
+//         star+="*";
+//     }
+//     console.log(star);
+//   }
+
+
+/*         ex4      */
+
+var array=[1,5,4,9,8,4,6,3];
+var max=array[0];
+
+for(let i=1;i<=array.length / 2; i++){
+    if(array[i] > max){
+        max=array[i];
     }
-    console.log(star);
-  }
+    for(let j=array.length-1;j>=0;j--){
+        if(array[j]>max){
+            max=array[j];
+        }
+    }
+    console.log(max)
+}
+
+
+
+
+
+
 
   
