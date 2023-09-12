@@ -86,7 +86,7 @@
 //   }
 
 
-
+/*  exercice 6 >>>  ex1 */
 
 function key(number){
     switch(number){
