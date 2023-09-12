@@ -48,20 +48,28 @@
 
 /*         ex4      */
 
-var array=[1,5,4,9,8,4,6,3];
-var max=array[0];
+// var array=[1,5,4,9,8,4,6,3];
+// var max=array[0];
 
-for(let i=1;i<=array.length / 2; i++){
-    if(array[i] > max){
-        max=array[i];
-    }
-    for(let j=array.length-1;j>=0;j--){
-        if(array[j]>max){
-            max=array[j];
-        }
-    }
-    console.log(max)
+// for(let i=1;i<=array.length / 2; i++){
+//     if(array[i] > max){
+//         max=array[i];
+//     }
+//     for(let j=array.length-1;j>=0;j--){
+//         if(array[j]>max){
+//             max=array[j];
+//         }
+//     }
+//     console.log(max)
+// }
+
+/*        ex5 */
+
+function square(number){
+    return number * number
 }
+
+console.log(square(3));
 
 
 
