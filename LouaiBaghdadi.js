@@ -17,20 +17,32 @@
 
 /*      exercice 2   */ 
 
-const array=[1,2,8,4,7,6];
+// const array=[1,2,8,4,7,6];
 
-var max=array[0];
+// var max=array[0];
 
-var min=array[0];
+// var min=array[0];
 
 
-for(let i=1;i<array.length;i++){
-    if(array[i] > max){
-        max =array[i];
-    } 
-    else if(array[i < min]){
-        min =array[i];
+// for(let i=1;i<array.length;i++){
+//     if(array[i] > max){
+//         max =array[i];
+//     } 
+//     else if(array[i < min]){
+//         min =array[i];
+//     }
+// }
+// console.log(max);
+// console.log(min);
+
+/*          exercie 3      */ 
+
+for (let i = 0; i < 6; i++) {
+    var star=" "
+    for (let j = 0; j <= i; j++) {
+        star+="*";
     }
-}
-console.log(max);
-console.log(min);
+    console.log(star);
+  }
+
+  
