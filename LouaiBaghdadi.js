@@ -1,13 +1,13 @@
 
 /*      exercice 1   */ 
 
-// const numberKey=prompt("enter the number key");
+// const numberKey=Number(prompt("enter the number key"));
 
 // switch(numberKey) {
-//     case "0":
+//     case 0:
 //       console.log("we sank together");
 //       break;
-//     case "30000":
+//     case 30000:
 //       console.log("we made it");
 //       break;
 //       default:
@@ -17,7 +17,7 @@
 
 /*      exercice 2   */ 
 
-// const array=[1,2,8,4,7,6];
+// const array=[7,2,8,4,1,6];
 
 // var max=array[0];
 
@@ -28,7 +28,7 @@
 //     if(array[i] > max){
 //         max =array[i];
 //     } 
-//     else if(array[i < min]){
+//     else if(array[i] < min){
 //         min =array[i];
 //     }
 // }
@@ -72,38 +72,25 @@
 // console.log(square(3));
 
 
-// const numberKey=prompt("enter the number key");
-
-// switch(numberKey) {
-//     case "0":
-//       console.log("we sank together");
-//       break;
-//     case "30000":
-//       console.log("we made it");
-//       break;
-//       default:
-//         console.log("we need to swim a little bit more!")
-//   }
-
-
 /*  exercice 6 >>>  ex1 */
 
-function key(number){
-    switch(number){
-        case 0:
-            console.log("we sank together");
-            break;
+// function key(number){
+//     switch(number){
+//         case 0:
+//             console.log("we sank together");
+//             break;
         
-        case 30000:
-            console.log("we made it");
-            break;
+//         case 30000:
+//             console.log("we made it");
+//             break;
 
-            default:
-                console.log("we need to swim a little bit more");
-    }
-    return number;
-}
-console.log(key(3000));
+//             default:
+//                 console.log("we need to swim a little bit more");
+//     }
+//     return number;
+// }
+// console.log(key(3000));
+
 
 
 
